@@ -69,10 +69,10 @@ function playGame() {
     }
 
     if (playerScore == computerScore) {
-        return `Player score: ${playerScore}\nComputer score: ${computerScore}\nDraw.`
+        return `Player score: ${playerScore} Computer score: ${computerScore} Draw.`
     }
     else if (playerScore > computerScore) {
-        return `Player score: ${playerScore}\nComputer score: ${computerScore}\nPlayer wins the game.`
+        return `Player score: ${playerScore}Computer score: ${computerScore} Player wins the game.`
     }
     else if (playerScore < computerScore) {
         return `Player score: ${playerScore}. Computer score: ${computerScore}. Computer wins the game.`
